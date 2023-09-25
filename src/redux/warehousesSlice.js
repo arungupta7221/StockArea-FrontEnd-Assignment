@@ -1,4 +1,3 @@
-// warehousesSlice.js
 import { createSlice } from '@reduxjs/toolkit'
 
 const warehousesSlice = createSlice({

@@ -1,9 +1,8 @@
-// WarehouseDetails.js
 import React, { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import { editWarehouse } from '../redux/warehousesSlice'
-import './WareHouseDetail.css' // Import your custom CSS file
+import './WareHouseDetail.css'
 
 const WarehouseDetails = () => {
   const { id } = useParams()
