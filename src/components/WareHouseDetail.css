@@ -1,0 +1,83 @@
+/* WarehouseDetail.css */
+
+/* Container styles */
+.warehouse-details-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.warehouse-details-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Edit button style */
+.edit-button {
+  margin: 10px 5px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Save and Cancel buttons style */
+.save-button {
+  background-color: #28a745; /* Green for Save */
+  margin: 10px 5px;
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #dc3545; /* Red for Cancel */
+  margin: 10px 5px;
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Input field styles */
+.label {
+  font-weight: bold;
+}
+
+.input[type='text'],
+.input[type='number'],
+.checkbox[type='checkbox'] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Checkbox alignment */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+/* Checkbox text spacing */
+.checkbox[type='checkbox'] + span {
+  margin-left: 5px;
+}
+
+/* Disabled input styles */
+.input[readonly],
+.checkbox[disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
